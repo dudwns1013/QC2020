@@ -5,3 +5,9 @@
 
 ## 9월 18일
 > contents에 blockquote 두 가지 추가 <br>
+
+## 9월 22일
+> scss (color, variables, mixin, main) practice
+
+## 9월 28일
+> blockquote css -> scss 수정

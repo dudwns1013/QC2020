@@ -1,0 +1,51 @@
+//------------------------
+// Base 
+//------------------------
+
+.qc {
+    @include base(150px, 150px ,50px auto ,1px);
+}
+
+.qc p {
+    @include base_sub(absolute, 40%, 30%);
+}
+
+.pxc {
+    @include pxc(50%, 1em 1em, 1px);
+}
+  
+// .left-f1-color {
+//     @include left-f1-color(#ffffff);
+// }
+
+.blockquote {
+    @include blockquote1(60px 80px 40px);
+}
+.blockquote p {
+    @include blockquote1-p("Utopia-italic", 35px, 700px);
+}
+
+.blockquote:before {
+    @include blockquote1_before(absolute ,'FontAwesome', "\f10d", 200px ,rgba(0,0,0,0.1));
+}
+
+.blockquote::after {
+    @include blockquote1_after("", 20px, 50%, -100px, absolute, 3px solid #bf0024, 3px, 200px);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+.otro-blockquote{
+    @include otro_blockquote(1.4em, 60%, 50px auto, Open Sans, italic, #555555, 1.2em 30px 1.2em 75px, 8px solid #78C0A8, 1.6, #EDEDED);
+}
+
+.otro-blockquote::before{
+    @include otro_blockquote_before(Arial, "\201C", #78C0A8, 4em, absolute, 10px, -10px);
+}
+
+.otro-blockquote::after{
+    @include otro_blockquote_after('');
+}
+
+.otro-blockquote span{
+    @include otro_blockquote_span(block, #333333, bold);
+}
