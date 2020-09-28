@@ -35,10 +35,13 @@
     padding: $default-padding;
 }
 
-// @mixin left-f1-color($edge-color) {
-//     background-color: map-get($background-color, $edge-color);
-//     border-color: map-get($default-color, $edge-color);
-// }
+@mixin left-f1-color($bg_color, $bd_color, $bd_le_width, $bd_top_rr, $bd_bottom_rr) {
+    background-color: $bg_color;
+    border-color: $bd_color;
+    border-left-width: $bd_le_width;
+    border-top-right-radius: $bd_top_rr;
+    border-bottom-right-radius: $bd_bottom_rr; 
+}
 
 @mixin blockquote1($padding) {
     padding: $padding;

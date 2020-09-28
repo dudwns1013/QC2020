@@ -14,9 +14,9 @@
     @include pxc(50%, 1em 1em, 1px);
 }
   
-// .left-f1-color {
-//     @include left-f1-color(#ffffff);
-// }
+.left-f1-color {
+    @include left-f1-color(rgba(203, 252, 180, 0.2), #ccffcc, 30px, 50px, 50px);
+}
 
 .blockquote {
     @include blockquote1(60px 80px 40px);

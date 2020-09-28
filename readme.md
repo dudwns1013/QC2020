@@ -10,4 +10,4 @@
 > scss (color, variables, mixin, main) practice
 
 ## 9월 28일
-> blockquote css -> scss 수정
+> blockquote css -> scss 1차, 2차 수정
