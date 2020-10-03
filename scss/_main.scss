@@ -2,12 +2,29 @@
 // Base 
 //------------------------
 
+
+html {
+    @include bsfont-property($root-font-size, $default-font);
+}
+
+h3 {
+    @include h3-property($bigger-size, $nps-font);
+}
+
+h5 {
+    @include h5-property($smallest-size, $jua-font);
+}
+
+.qfont {
+    @include qfont-property($qfont-size, $default-font);
+}
+
 .qc {
     @include base(150px, 150px ,50px auto ,1px);
 }
 
 .qc p {
-    @include base_sub(absolute, 40%, 30%);
+    @include base_sub(absolute, 40%, 25%, $bhs-font);
 }
 
 .pxc {

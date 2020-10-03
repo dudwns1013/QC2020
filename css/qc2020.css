@@ -1,5 +1,26 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&family=Nanum+Gothic&family=Nanum+Pen+Script&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+html {
+  font-size: 10px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+h5 {
+  font-size: 1rem;
+  font-family: "Jua", sans-serif;
+}
+
+.qfont {
+  font-size: 1.6rem;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
 .qc {
   width: 150px;
   height: 150px;
@@ -10,14 +31,15 @@
   border-style: solid;
   border-color: #6e41c1;
   border-radius: 75px 75px;
-  color: #dd3545;
+  color: #6c757d;
   background-color: rgba(40, 167, 69, 0.3);
 }
 
 .qc p {
   position: absolute;
   top: 40%;
-  left: 30%;
+  left: 25%;
+  font-family: "Black Han Sans", sans-serif;
 }
 
 .pxc {

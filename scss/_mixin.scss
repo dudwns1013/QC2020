@@ -12,14 +12,35 @@
     border-style: $default-border-style;
     border-color: $dy-purple;
     border-radius: $default-border-radius;
-    color: $dy-red;
+    color: $dy-gray;
     background-color: $bg-green;
 }
 
-@mixin base_sub($sub_position, $top, $left) {
+@mixin base_sub($sub_position, $top, $left, $qc-font) {
     position: $sub_position;
     top: $top;
     left: $left;
+    font-family: $qc-font;
+}
+
+@mixin bsfont-property($root-font-size, $bsfont) {
+    font-size: $root-font-size;
+    font-family: $bsfont;
+}
+
+@mixin h3-property($h3-size, $h3-font) {
+    font-size: $h3-size;
+    font-family: $h3-font;
+}
+
+@mixin h5-property($h5-size, $h5-font) {
+    font-size: $h5-size;
+    font-family: $h5-font;
+}
+
+@mixin qfont-property($qfont-size, $qfont) {
+    font-size: $qfont-size;
+    font-family: $qfont;
 }
 
 // @mixin edge-color($edge-color) {

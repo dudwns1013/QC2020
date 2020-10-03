@@ -1,5 +1,11 @@
 # 유영준
 
+## 10월 3일
+> typography에 웹 사이즈와 웹폰트 사용
+
+## 9월 29일
+> typography 사용
+
 ## 9월 28일
 > blockquote css -> scss 1차, 2차 수정
 
